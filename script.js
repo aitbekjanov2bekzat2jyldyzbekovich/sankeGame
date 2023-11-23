@@ -157,7 +157,7 @@ function isGameOver() {
     if (gameOver) {
         context.fillStyle = 'white';
         context.font = "50px verdana";
-        context.fillText("Конец игры! ", canvas.clientWidth / 6.5, canvas.clientHeight / 2);
+        context.fillText(`   Счет ${score} ` , canvas.clientWidth / 6.5, canvas.clientHeight / 2);
         setTimeout(() => {
             location.reload()    
         }, 2000);
